@@ -1,5 +1,9 @@
 # Recreating Jolt Issue with `cdylib`
 
+I intend to use Jolt as dynamic link library (.so file + `libloading` crate) but I encountered an issue where the `libloading` fails to load the .so file.
+
+# Content
+
 ```
 ├── guest
 │   ├── Cargo.toml

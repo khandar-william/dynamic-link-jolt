@@ -11,4 +11,6 @@ path = "./src/lib.rs"
 guest = []
 
 [dependencies]
-jolt = { package = "jolt-sdk", git = "https://github.com/a16z/jolt", features = ["guest-std"]}
+jolt = { package = "jolt-sdk", git = "https://github.com/a16z/jolt", features = [
+  "guest-std",
+] }
